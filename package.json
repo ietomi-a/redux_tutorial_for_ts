@@ -1,14 +1,15 @@
 {
-  "name": "todos for ts",
+  "name": "todos-for-ts",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@types/react": "^16.8.10",
     "@types/react-dom": "^16.8.3",
     "@types/react-redux": "^7.0.6",
+    "acorn": "^6.1.1",
     "prop-types": "^15.6.1",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-redux": "^5.0.7",
     "redux": "^3.5.2",
     "serve": "^10.1.2",
