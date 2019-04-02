@@ -1,10 +1,7 @@
 {
-  "name": "todos",
+  "name": "todos for ts",
   "version": "0.0.1",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "^2.0.2"
-  },
   "dependencies": {
     "@types/react": "^16.8.10",
     "@types/react-dom": "^16.8.3",
@@ -14,16 +11,15 @@
     "react-dom": "^16.3.1",
     "react-redux": "^5.0.7",
     "redux": "^3.5.2",
+    "serve": "^10.1.2",
     "ts-loader": "^5.3.3",
     "typescript": "^3.4.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "webpack",
-    "eject": "react-scripts eject",
-    "test": "react-scripts test --env=node"
+    "start": "serve",
+    "build": "webpack"
   },
   "browserslist": [
     ">0.2%",
